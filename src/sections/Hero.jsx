@@ -4,7 +4,7 @@ export default function Hero() {
     return (
         <section className="relative">
             <div>
-                <img src="hero.jpg" alt="UFOcube Hero Banner" className="w-full h-auto mid:h-[300px]" />
+                <img src="hero.jpg" alt="UFOcube Hero Banner" className="w-full h-auto " />
 
                 {/* Text Overlay */}
                 <div className="absolute inset-0 flex items-center justify-start px-4 md:px-10 lg:pl-[66px] lg:pt-12 pl-[40px] md:pl-[80px] pb-[90px]  w-full md:text-[12px] md:mt-0 mt-12 sm:mt-0 lg:ml-12">
