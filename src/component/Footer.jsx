@@ -28,7 +28,7 @@ const Footer = () => {
         </ul>
 
 
-        <div className="hidden mm:flex gap-4 text-[27px] text-black">
+        <div className="flex gap-4 text-[27px] text-black justify-center md:justify-end">
           <a href="https://www.facebook.com/ufocube" target="_blank" rel="noopener noreferrer">
             <FaFacebookF className="bg-slate-300 hover:cursor-pointer hover:bg-green-600 p-1 rounded-full transition-all" />
           </a>
@@ -45,6 +45,7 @@ const Footer = () => {
             <FaLinkedinIn className="bg-slate-300 hover:cursor-pointer hover:bg-green-600 p-1 rounded-full transition-all" />
           </a>
         </div>
+
       </div>
 
       <hr className="my-3 border-gray-600 w-[300px] mx-auto" />
