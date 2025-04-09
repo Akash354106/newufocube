@@ -6,7 +6,7 @@ export default function WhatsAppButton() {
 
   useEffect(() => {
     const phoneNumber = "917870175908"; // ✅ Your number
-    const message = encodeURIComponent("Hi Akash! I came from your website.");
+    const message = encodeURIComponent("Hi Manoj! I came from your website.");
     const isMobile = /iPhone|Android|iPad|iPod|Windows Phone/i.test(navigator.userAgent);
 
     if (isMobile) {
@@ -24,7 +24,7 @@ export default function WhatsAppButton() {
         rel="noopener noreferrer"
         className="bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 flex items-center justify-center"
       >
-        <FaWhatsapp size={28} />
+        <FaWhatsapp size={28}  />
       </a>
     </div>
   );
