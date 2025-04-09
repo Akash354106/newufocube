@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, User, MessageSquare, FileText, Smartphone } from "lucide-react";
+import WhatsAppButton from "../component/WhatsAppButton";
 
 export default function Contactus() {
   const [formData, setFormData] = useState({
@@ -23,15 +24,14 @@ export default function Contactus() {
 
   return (
     <>
-    <div className="bg-black p-[19px] lg:p-[30px]">dasd
-      <img src="" alt="" />
-    </div>
+    <div className="bg-black p-[19px] lg:p-[30px]">dasd</div>
     <motion.div
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
       className="min-h-screen bg-gray-50 py-12 px-4 md:px-12"
     >
+      <WhatsAppButton/>
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold text-gray-800">Contact Us</h2>
         <p className="mt-2 text-gray-500 text-lg">We’d love to hear from you! Please fill out the form below.</p>
